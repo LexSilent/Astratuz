@@ -1,0 +1,79 @@
+.Login{
+    width:100%;
+    background-color: #ffffff;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.3rem;
+    color:rgb(0, 0, 0);
+  }
+  #register{
+    color:cadetblue;
+    font-size: 1rem;
+    
+  }
+  #logo {
+    height: 10rem;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  #logo:hover {
+    filter: drop-shadow(0 0 2em #ff5d5d);
+  }
+  #logo.react:hover {
+    filter: drop-shadow(0 0 2em #ff5d5d);
+  }
+  .Login-h1{}
+  .Login-a{}
+  .Login-button{
+    background-color: #ffffff;
+    color: #ff5d5d;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 3px solid var(--guinda);
+    border-radius: 8rem;
+  }
+  .Login-button:hover{
+    background-color: var(--guindvar);
+    color: white;
+  }
+  .Login-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid var(--guinda);
+    background-color: #ECA844;
+    border-radius: 8rem;
+    color: #ffffff;
+
+  }
+  .Login-input:focus{
+    background-color: var(--guinda);
+  }
+  
+  .Login-ul{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .Login-li{
+    margin: .8rem;
+  }
+  @media screen and (max-width:480px){
+  
+    .Login-ul{
+        flex-direction: column;
+    }
+    .Login-li{
+        margin: .2em;
+    }
+  }
